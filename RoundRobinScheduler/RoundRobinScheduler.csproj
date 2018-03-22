@@ -44,5 +44,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Team.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDescription.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
