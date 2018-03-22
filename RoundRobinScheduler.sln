@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundRobinScheduler", "RoundRobinScheduler\RoundRobinScheduler.csproj", "{A5B93280-451F-4F60-826E-CFF2C362B0E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B93280-451F-4F60-826E-CFF2C362B0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B93280-451F-4F60-826E-CFF2C362B0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B93280-451F-4F60-826E-CFF2C362B0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B93280-451F-4F60-826E-CFF2C362B0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3C2AC73-8E53-41B3-AA9E-5DE2F1E3B0F5}
+	EndGlobalSection
+EndGlobal
