@@ -15,8 +15,9 @@ District assignedDistrict=Małopolska
 Holds info about single match.
 Team HomeTeam, Team AwayTeam, Result MatchResult
 ## Result
-Just results and control of values (>0)
-int HomeScore, int AwayScore
+Just results and control of values (>0). Ints are nullable
+in case of matches not played yet
+int? HomeScore, int? AwayScore
 ## Schedule
 Schedule
 int Id, string Name, Season LeagueSeason, 
