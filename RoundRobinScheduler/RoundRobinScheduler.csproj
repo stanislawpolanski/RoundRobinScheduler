@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="District.cs" />
+    <Compile Include="InvalidScoreException.cs" />
     <Compile Include="IScheduler.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

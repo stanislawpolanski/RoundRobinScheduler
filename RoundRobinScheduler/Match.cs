@@ -8,13 +8,19 @@ namespace RoundRobinScheduler
 {
     class Match
     {
-        //TODO give accessors
-        Team HomeTeam;
-        Team AwayTeam;
+        readonly Team HomeTeam;
+        readonly Team AwayTeam;
         Result MatchResult;
 
-        public Match()
+        /// <summary>
+        /// Initiales match. As an input comes home and away teams.
+        /// </summary>
+        /// <param name="ht">Home player</param>
+        /// <param name="at">Away player</param>
+        public Match(Team ht, Team at)
         {
+            this.HomeTeam = ht;
+            this.AwayTeam = at;
             this.MatchResult = new Result();
         }
 

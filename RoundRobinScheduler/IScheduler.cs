@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO to be implemented
 namespace RoundRobinScheduler
 {
     interface IScheduler
     {
+        bool LoadTeams(List<Team> Teams);
+        void GenerateSchedule();
     }
 }

@@ -26,7 +26,7 @@ List<Round> Rounds
 Interface for schedulers (could be different like 
 round robin, knock-out). Need to assing season and id?
 bool LoadTeam(List<Team>) - true if List.Count > 1,
-bool GenerateSchedule() - true if schedule generated
+void GenerateSchedule()
 and id present 
 ## Round
 List<Match>

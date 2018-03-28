@@ -26,7 +26,8 @@ namespace RoundRobinScheduler
         {
             if (this.ValidateResults(HomeScore, AwayScore))
                 this.Scores = new Tuple<int?, int?>(HomeScore, AwayScore);
-            //TODO if not proper then throw out an exception
+            else
+                throw new InvalidScoreException();
         }
 
         /// <summary>
@@ -37,8 +38,9 @@ namespace RoundRobinScheduler
         /// <returns></returns>
         private bool ValidateResults(int homeScore, int awayScore)
         {
-            //TODO must be implemented
-            throw new NotImplementedException();
+            if (homeScore >= 0 || awayScore >= 0)
+                return true;
+            return false;                
         }
     }
 }
