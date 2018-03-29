@@ -7,14 +7,9 @@ using System.Threading.Tasks;
 //TODO implement
 namespace RoundRobinScheduler
 {
-    class KnockOutScheduler : IScheduler
+    class KnockOutScheduler : GroupScheduler, IScheduler
     {
-        public void GenerateSchedule()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool LoadTeams(List<Team> Teams)
+        public new void GenerateSchedule()
         {
             throw new NotImplementedException();
         }
