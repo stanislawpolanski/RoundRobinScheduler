@@ -18,9 +18,9 @@ Team HomeTeam, Team AwayTeam, Result MatchResult
 Just results and control of values (>0). Ints are nullable
 in case of matches not played yet
 int? HomeScore, int? AwayScore
-## Schedule
-Schedule
-int Id, string Name, Season LeagueSeason, 
+## League
+Contains schedule and identifier of league
+int Id, string Name (like Name=2. liga, wschód), Season LeagueSeason, 
 List<Round> Rounds
 ## IScheduler
 Interface for schedulers (could be different like 

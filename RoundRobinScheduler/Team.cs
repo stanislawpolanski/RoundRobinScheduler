@@ -45,8 +45,8 @@ namespace RoundRobinScheduler
         /// <param name="da">Team's district assignment</param>
         Team(int id, string name, District da)
         {
-            this.Id   = id;
-            this.Name = name;
+            this.Id                 = id;
+            this.Name               = name;
             this.DistrictAssignment = da;
         }
     }
