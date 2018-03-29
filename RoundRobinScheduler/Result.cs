@@ -27,7 +27,7 @@ namespace RoundRobinScheduler
             if (this.ValidateResults(HomeScore, AwayScore))
                 this.Scores = new Tuple<int?, int?>(HomeScore, AwayScore);
             else
-                throw new InvalidScoreException();
+                throw new ArgumentOutOfRangeException();
         }
 
         /// <summary>

@@ -35,7 +35,7 @@ namespace RoundRobinScheduler
             }
             catch(Exception e)
             {
-                //TODO throw out new exception
+                throw;
             }
         }
     }

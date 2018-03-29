@@ -28,6 +28,10 @@ round robin, knock-out). Need to assing season and id?
 bool LoadTeam(List<Team>) - true if List.Count > 1,
 void GenerateSchedule()
 and id present 
+## GroupScheduler
+Implements IScheduler. Round robin scheduling for league
+## KnockOutScheduler
+Implements IScheduler. National Cup, league cup etc.
 ## Round
 List<Match>
 ## Season
